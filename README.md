@@ -5,10 +5,13 @@ Ruby SOAP Server.
 - Ruby 2.4
 - Rails 5
 - [WashOut gem][washout]
+- SQLite 3
 
 ### Setup
 
-    bundle
+    bundle # install dependencies
+
+    bin/rake db:setup db:seed # database setup and population
 
 ### Run
 
