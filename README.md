@@ -9,6 +9,12 @@ Ruby SOAP Server.
 
 ### Setup
 
+Pre-setup (in case you don't have [Bundler][bundler] yet):
+
+    gem install bundler # install Bundler
+
+And so:
+
     bundle # install dependencies
 
     bin/rake db:setup db:seed # database setup and population
@@ -18,3 +24,4 @@ Ruby SOAP Server.
     bin/rails s
 
 [washout]: https://github.com/inossidabile/wash_out
+[bundler]: http://bundler.io/
